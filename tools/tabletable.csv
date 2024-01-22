@@ -1,0 +1,862 @@
+;tablename;column_name;datatype;nullable;pk;unique
+0;Adobe_AdditionalMetadata;id_local;INTEGER;False;True;False
+1;Adobe_AdditionalMetadata;id_global;NOT SPECIFIED;True;False;True
+2;Adobe_AdditionalMetadata;additionalInfoSet;INTEGER;True;False;False
+3;Adobe_AdditionalMetadata;embeddedXmp;INTEGER;True;False;False
+4;Adobe_AdditionalMetadata;externalXmpIsDirty;INTEGER;True;False;False
+5;Adobe_AdditionalMetadata;image;INTEGER;False;False;False
+6;Adobe_AdditionalMetadata;incrementalWhiteBalance;INTEGER;True;False;False
+7;Adobe_AdditionalMetadata;internalXmpDigest;NOT SPECIFIED;False;False;False
+8;Adobe_AdditionalMetadata;isRawFile;INTEGER;True;False;False
+9;Adobe_AdditionalMetadata;lastSynchronizedHash;NOT SPECIFIED;False;False;False
+10;Adobe_AdditionalMetadata;lastSynchronizedTimestamp;NOT SPECIFIED;True;False;False
+11;Adobe_AdditionalMetadata;metadataPresetID;NOT SPECIFIED;False;False;False
+12;Adobe_AdditionalMetadata;metadataVersion;NOT SPECIFIED;False;False;False
+13;Adobe_AdditionalMetadata;monochrome;INTEGER;True;False;False
+14;Adobe_AdditionalMetadata;xmp;NOT SPECIFIED;True;False;False
+15;Adobe_faceProperties;id_local;INTEGER;False;True;False
+16;Adobe_faceProperties;face;INTEGER;False;False;False
+17;Adobe_faceProperties;propertiesString;NOT SPECIFIED;False;False;False
+18;Adobe_imageDevelopBeforeSettings;id_local;INTEGER;False;True;False
+19;Adobe_imageDevelopBeforeSettings;beforeDigest;NOT SPECIFIED;False;False;False
+20;Adobe_imageDevelopBeforeSettings;beforeHasDevelopAdjustments;NOT SPECIFIED;False;False;False
+21;Adobe_imageDevelopBeforeSettings;beforePresetID;NOT SPECIFIED;False;False;False
+22;Adobe_imageDevelopBeforeSettings;beforeText;NOT SPECIFIED;False;False;False
+23;Adobe_imageDevelopBeforeSettings;developSettings;INTEGER;False;False;False
+24;Adobe_imageDevelopBeforeSettings;hasBigData;INTEGER;True;False;False
+25;Adobe_imageDevelopSettings;id_local;INTEGER;False;True;False
+26;Adobe_imageDevelopSettings;allowFastRender;INTEGER;False;False;False
+27;Adobe_imageDevelopSettings;beforeSettingsIDCache;NOT SPECIFIED;False;False;False
+28;Adobe_imageDevelopSettings;croppedHeight;NOT SPECIFIED;False;False;False
+29;Adobe_imageDevelopSettings;croppedWidth;NOT SPECIFIED;False;False;False
+30;Adobe_imageDevelopSettings;digest;NOT SPECIFIED;False;False;False
+31;Adobe_imageDevelopSettings;fileHeight;NOT SPECIFIED;False;False;False
+32;Adobe_imageDevelopSettings;fileWidth;NOT SPECIFIED;False;False;False
+33;Adobe_imageDevelopSettings;grayscale;INTEGER;False;False;False
+34;Adobe_imageDevelopSettings;hasAIMasks;INTEGER;True;False;False
+35;Adobe_imageDevelopSettings;hasBigData;INTEGER;True;False;False
+36;Adobe_imageDevelopSettings;hasDevelopAdjustments;INTEGER;False;False;False
+37;Adobe_imageDevelopSettings;hasDevelopAdjustmentsEx;NOT SPECIFIED;False;False;False
+38;Adobe_imageDevelopSettings;hasLensBlur;INTEGER;True;False;False
+39;Adobe_imageDevelopSettings;hasMasks;INTEGER;True;False;False
+40;Adobe_imageDevelopSettings;hasRetouch;NOT SPECIFIED;False;False;False
+41;Adobe_imageDevelopSettings;historySettingsID;NOT SPECIFIED;False;False;False
+42;Adobe_imageDevelopSettings;image;INTEGER;False;False;False
+43;Adobe_imageDevelopSettings;isHdrEditMode;INTEGER;True;False;False
+44;Adobe_imageDevelopSettings;processVersion;NOT SPECIFIED;False;False;False
+45;Adobe_imageDevelopSettings;profileCorrections;NOT SPECIFIED;False;False;False
+46;Adobe_imageDevelopSettings;removeChromaticAberration;NOT SPECIFIED;False;False;False
+47;Adobe_imageDevelopSettings;settingsID;NOT SPECIFIED;False;False;False
+48;Adobe_imageDevelopSettings;snapshotID;NOT SPECIFIED;False;False;False
+49;Adobe_imageDevelopSettings;text;NOT SPECIFIED;False;False;False
+50;Adobe_imageDevelopSettings;validatedForVersion;NOT SPECIFIED;False;False;False
+51;Adobe_imageDevelopSettings;whiteBalance;NOT SPECIFIED;False;False;False
+52;Adobe_imageProofSettings;id_local;INTEGER;False;True;False
+53;Adobe_imageProofSettings;colorProfile;NOT SPECIFIED;False;False;False
+54;Adobe_imageProofSettings;image;INTEGER;False;False;False
+55;Adobe_imageProofSettings;renderingIntent;NOT SPECIFIED;False;False;False
+56;Adobe_imageProperties;id_local;INTEGER;False;True;False
+57;Adobe_imageProperties;id_global;NOT SPECIFIED;True;False;True
+58;Adobe_imageProperties;image;INTEGER;False;False;False
+59;Adobe_imageProperties;propertiesString;NOT SPECIFIED;False;False;False
+60;Adobe_images;id_local;INTEGER;False;True;False
+61;Adobe_images;id_global;NOT SPECIFIED;True;False;True
+62;Adobe_images;aspectRatioCache;NOT SPECIFIED;True;False;False
+63;Adobe_images;bitDepth;NOT SPECIFIED;True;False;False
+64;Adobe_images;captureTime;NOT SPECIFIED;False;False;False
+65;Adobe_images;colorChannels;NOT SPECIFIED;True;False;False
+66;Adobe_images;colorLabels;NOT SPECIFIED;True;False;False
+67;Adobe_images;colorMode;NOT SPECIFIED;True;False;False
+68;Adobe_images;copyCreationTime;NOT SPECIFIED;True;False;False
+69;Adobe_images;copyName;NOT SPECIFIED;False;False;False
+70;Adobe_images;copyReason;NOT SPECIFIED;False;False;False
+71;Adobe_images;developSettingsIDCache;NOT SPECIFIED;False;False;False
+72;Adobe_images;editLock;INTEGER;True;False;False
+73;Adobe_images;fileFormat;NOT SPECIFIED;True;False;False
+74;Adobe_images;fileHeight;NOT SPECIFIED;False;False;False
+75;Adobe_images;fileWidth;NOT SPECIFIED;False;False;False
+76;Adobe_images;hasMissingSidecars;INTEGER;False;False;False
+77;Adobe_images;masterImage;INTEGER;False;False;False
+78;Adobe_images;orientation;NOT SPECIFIED;False;False;False
+79;Adobe_images;originalCaptureTime;NOT SPECIFIED;False;False;False
+80;Adobe_images;originalRootEntity;INTEGER;False;False;False
+81;Adobe_images;panningDistanceH;NOT SPECIFIED;False;False;False
+82;Adobe_images;panningDistanceV;NOT SPECIFIED;False;False;False
+83;Adobe_images;pick;NOT SPECIFIED;True;False;False
+84;Adobe_images;positionInFolder;NOT SPECIFIED;True;False;False
+85;Adobe_images;propertiesCache;NOT SPECIFIED;False;False;False
+86;Adobe_images;pyramidIDCache;NOT SPECIFIED;False;False;False
+87;Adobe_images;rating;NOT SPECIFIED;False;False;False
+88;Adobe_images;rootFile;INTEGER;True;False;False
+89;Adobe_images;sidecarStatus;NOT SPECIFIED;False;False;False
+90;Adobe_images;touchCount;NOT SPECIFIED;True;False;False
+91;Adobe_images;touchTime;NOT SPECIFIED;True;False;False
+92;Adobe_libraryImageDevelop3DLUTColorTable;id_local;INTEGER;False;True;False
+93;Adobe_libraryImageDevelop3DLUTColorTable;LUTFullString;NOT SPECIFIED;False;False;False
+94;Adobe_libraryImageDevelop3DLUTColorTable;LUTHash;NOT SPECIFIED;False;False;True
+95;Adobe_libraryImageDevelopHistoryStep;id_local;INTEGER;False;True;False
+96;Adobe_libraryImageDevelopHistoryStep;id_global;NOT SPECIFIED;True;False;True
+97;Adobe_libraryImageDevelopHistoryStep;dateCreated;NOT SPECIFIED;False;False;False
+98;Adobe_libraryImageDevelopHistoryStep;digest;NOT SPECIFIED;False;False;False
+99;Adobe_libraryImageDevelopHistoryStep;hasBigData;INTEGER;True;False;False
+100;Adobe_libraryImageDevelopHistoryStep;hasDevelopAdjustments;NOT SPECIFIED;False;False;False
+101;Adobe_libraryImageDevelopHistoryStep;image;INTEGER;False;False;False
+102;Adobe_libraryImageDevelopHistoryStep;name;NOT SPECIFIED;False;False;False
+103;Adobe_libraryImageDevelopHistoryStep;relValueString;NOT SPECIFIED;False;False;False
+104;Adobe_libraryImageDevelopHistoryStep;text;NOT SPECIFIED;False;False;False
+105;Adobe_libraryImageDevelopHistoryStep;valueString;NOT SPECIFIED;False;False;False
+106;Adobe_libraryImageDevelopSnapshot;id_local;INTEGER;False;True;False
+107;Adobe_libraryImageDevelopSnapshot;id_global;NOT SPECIFIED;True;False;True
+108;Adobe_libraryImageDevelopSnapshot;digest;NOT SPECIFIED;False;False;False
+109;Adobe_libraryImageDevelopSnapshot;hasBigData;INTEGER;True;False;False
+110;Adobe_libraryImageDevelopSnapshot;hasDevelopAdjustments;NOT SPECIFIED;False;False;False
+111;Adobe_libraryImageDevelopSnapshot;image;INTEGER;False;False;False
+112;Adobe_libraryImageDevelopSnapshot;locked;NOT SPECIFIED;False;False;False
+113;Adobe_libraryImageDevelopSnapshot;name;NOT SPECIFIED;False;False;False
+114;Adobe_libraryImageDevelopSnapshot;snapshotID;NOT SPECIFIED;False;False;False
+115;Adobe_libraryImageDevelopSnapshot;text;NOT SPECIFIED;False;False;False
+116;Adobe_libraryImageFaceProcessHistory;id_local;INTEGER;False;True;False
+117;Adobe_libraryImageFaceProcessHistory;image;INTEGER;True;False;False
+118;Adobe_libraryImageFaceProcessHistory;lastFaceDetector;NOT SPECIFIED;False;False;False
+119;Adobe_libraryImageFaceProcessHistory;lastFaceRecognizer;NOT SPECIFIED;False;False;False
+120;Adobe_libraryImageFaceProcessHistory;lastImageIndexer;NOT SPECIFIED;False;False;False
+121;Adobe_libraryImageFaceProcessHistory;lastImageOrientation;NOT SPECIFIED;False;False;False
+122;Adobe_libraryImageFaceProcessHistory;lastTryStatus;NOT SPECIFIED;False;False;False
+123;Adobe_libraryImageFaceProcessHistory;userTouched;NOT SPECIFIED;False;False;False
+124;Adobe_namedIdentityPlate;id_local;INTEGER;False;True;False
+125;Adobe_namedIdentityPlate;id_global;NOT SPECIFIED;True;False;True
+126;Adobe_namedIdentityPlate;description;NOT SPECIFIED;False;False;False
+127;Adobe_namedIdentityPlate;identityPlate;NOT SPECIFIED;False;False;False
+128;Adobe_namedIdentityPlate;identityPlateHash;NOT SPECIFIED;False;False;False
+129;Adobe_namedIdentityPlate;moduleFont;NOT SPECIFIED;False;False;False
+130;Adobe_namedIdentityPlate;moduleSelectedTextColor;NOT SPECIFIED;False;False;False
+131;Adobe_namedIdentityPlate;moduleTextColor;NOT SPECIFIED;False;False;False
+132;Adobe_variables;id_local;INTEGER;False;True;False
+133;Adobe_variables;id_global;NOT SPECIFIED;True;False;True
+134;Adobe_variables;name;NOT SPECIFIED;False;False;False
+135;Adobe_variables;value;NOT SPECIFIED;False;False;False
+136;Adobe_variables;id_local;INTEGER;False;True;False
+137;Adobe_variables;id_global;NOT SPECIFIED;True;False;True
+138;Adobe_variables;name;NOT SPECIFIED;False;False;False
+139;Adobe_variables;type;NOT SPECIFIED;False;False;False
+140;Adobe_variables;value;NOT SPECIFIED;True;False;False
+141;Adobe_variablesTable;id_local;INTEGER;False;True;False
+142;Adobe_variablesTable;id_global;NOT SPECIFIED;True;False;True
+143;Adobe_variablesTable;name;NOT SPECIFIED;False;False;False
+144;Adobe_variablesTable;type;NOT SPECIFIED;False;False;False
+145;Adobe_variablesTable;value;NOT SPECIFIED;True;False;False
+146;AgDeletedOzAlbumAssetIds;ozCatalogId;NOT SPECIFIED;True;False;False
+147;AgDeletedOzAlbumAssetIds;ozAlbumAssetId;NOT SPECIFIED;True;False;False
+148;AgDeletedOzAlbumAssetIds;changeCounter;NOT SPECIFIED;False;False;False
+149;AgDeletedOzAlbumIds;ozCatalogId;NOT SPECIFIED;True;False;False
+150;AgDeletedOzAlbumIds;ozAlbumId;NOT SPECIFIED;True;False;False
+151;AgDeletedOzAlbumIds;changeCounter;NOT SPECIFIED;False;False;False
+152;AgDeletedOzAssetIds;ozCatalogId;NOT SPECIFIED;True;False;False
+153;AgDeletedOzAssetIds;ozAssetId;NOT SPECIFIED;True;False;False
+154;AgDeletedOzAssetIds;changeCounter;NOT SPECIFIED;False;False;False
+155;AgDeletedOzSpaceIds;ozCatalogId;NOT SPECIFIED;True;False;False
+156;AgDeletedOzSpaceIds;ozSpaceId;NOT SPECIFIED;True;False;False
+157;AgDeletedOzSpaceIds;changeCounter;NOT SPECIFIED;False;False;False
+158;AgDevelopAdditionalMetadata;id_local;INTEGER;False;True;False
+159;AgDevelopAdditionalMetadata;hasDepthMap;INTEGER;False;False;False
+160;AgDevelopAdditionalMetadata;hasEnhance;NOT SPECIFIED;False;False;False
+161;AgDevelopAdditionalMetadata;image;INTEGER;False;False;False
+162;AgDNGProxyInfo;id_local;INTEGER;False;True;False
+163;AgDNGProxyInfo;fileUUID;NOT SPECIFIED;True;False;False
+164;AgDNGProxyInfo;status;NOT SPECIFIED;True;False;False
+165;AgDNGProxyInfo;statusDateTime;NOT SPECIFIED;True;False;False
+166;AgDNGProxyInfo;id_local;INTEGER;False;True;False
+167;AgDNGProxyInfo;taskID;NOT SPECIFIED;True;False;True
+168;AgDNGProxyInfo;taskStatus;NOT SPECIFIED;True;False;False
+169;AgDNGProxyInfo;whenPosted;NOT SPECIFIED;True;False;False
+170;AgDNGProxyInfoUpdater;id_local;INTEGER;False;True;False
+171;AgDNGProxyInfoUpdater;taskID;NOT SPECIFIED;True;False;True
+172;AgDNGProxyInfoUpdater;taskStatus;NOT SPECIFIED;True;False;False
+173;AgDNGProxyInfoUpdater;whenPosted;NOT SPECIFIED;True;False;False
+174;AgFolderContent;id_local;INTEGER;False;True;False
+175;AgFolderContent;id_global;NOT SPECIFIED;True;False;True
+176;AgFolderContent;containingFolder;INTEGER;True;False;False
+177;AgFolderContent;content;NOT SPECIFIED;False;False;False
+178;AgFolderContent;name;NOT SPECIFIED;False;False;False
+179;AgFolderContent;owningModule;NOT SPECIFIED;False;False;False
+180;AgHarvestedDNGMetadata;id_local;INTEGER;False;True;False
+181;AgHarvestedDNGMetadata;image;INTEGER;False;False;False
+182;AgHarvestedDNGMetadata;hasFastLoadData;INTEGER;False;False;False
+183;AgHarvestedDNGMetadata;hasLossyCompression;INTEGER;False;False;False
+184;AgHarvestedDNGMetadata;isDNG;INTEGER;False;False;False
+185;AgHarvestedDNGMetadata;isHDR;INTEGER;False;False;False
+186;AgHarvestedDNGMetadata;isPano;INTEGER;False;False;False
+187;AgHarvestedDNGMetadata;isReducedResolution;INTEGER;False;False;False
+188;AgHarvestedExifMetadata;id_local;INTEGER;False;True;False
+189;AgHarvestedExifMetadata;image;INTEGER;False;False;False
+190;AgHarvestedExifMetadata;aperture;NOT SPECIFIED;False;False;False
+191;AgHarvestedExifMetadata;cameraModelRef;INTEGER;False;False;False
+192;AgHarvestedExifMetadata;cameraSNRef;INTEGER;False;False;False
+193;AgHarvestedExifMetadata;dateDay;NOT SPECIFIED;False;False;False
+194;AgHarvestedExifMetadata;dateMonth;NOT SPECIFIED;False;False;False
+195;AgHarvestedExifMetadata;dateYear;NOT SPECIFIED;False;False;False
+196;AgHarvestedExifMetadata;flashFired;INTEGER;False;False;False
+197;AgHarvestedExifMetadata;focalLength;NOT SPECIFIED;False;False;False
+198;AgHarvestedExifMetadata;gpsLatitude;NOT SPECIFIED;False;False;False
+199;AgHarvestedExifMetadata;gpsLongitude;NOT SPECIFIED;False;False;False
+200;AgHarvestedExifMetadata;gpsSequence;NOT SPECIFIED;True;False;False
+201;AgHarvestedExifMetadata;hasGPS;INTEGER;False;False;False
+202;AgHarvestedExifMetadata;isoSpeedRating;NOT SPECIFIED;False;False;False
+203;AgHarvestedExifMetadata;lensRef;INTEGER;False;False;False
+204;AgHarvestedExifMetadata;shutterSpeed;NOT SPECIFIED;False;False;False
+205;AgHarvestedIptcMetadata;id_local;INTEGER;False;True;False
+206;AgHarvestedIptcMetadata;image;INTEGER;False;False;False
+207;AgHarvestedIptcMetadata;cityRef;INTEGER;False;False;False
+208;AgHarvestedIptcMetadata;copyrightState;INTEGER;False;False;False
+209;AgHarvestedIptcMetadata;countryRef;INTEGER;False;False;False
+210;AgHarvestedIptcMetadata;creatorRef;INTEGER;False;False;False
+211;AgHarvestedIptcMetadata;isoCountryCodeRef;INTEGER;False;False;False
+212;AgHarvestedIptcMetadata;jobIdentifierRef;INTEGER;False;False;False
+213;AgHarvestedIptcMetadata;locationDataOrigination;NOT SPECIFIED;True;False;False
+214;AgHarvestedIptcMetadata;locationGPSSequence;NOT SPECIFIED;True;False;False
+215;AgHarvestedIptcMetadata;locationRef;INTEGER;False;False;False
+216;AgHarvestedIptcMetadata;stateRef;INTEGER;False;False;False
+217;AgHarvestedMetadataWorklist;id_local;INTEGER;False;True;False
+218;AgHarvestedMetadataWorklist;taskID;NOT SPECIFIED;True;False;True
+219;AgHarvestedMetadataWorklist;taskStatus;NOT SPECIFIED;True;False;False
+220;AgHarvestedMetadataWorklist;whenPosted;NOT SPECIFIED;True;False;False
+221;AgInternedExifCameraModel;id_local;INTEGER;False;True;False
+222;AgInternedExifCameraModel;searchIndex;NOT SPECIFIED;False;False;False
+223;AgInternedExifCameraModel;value;NOT SPECIFIED;False;False;False
+224;AgInternedExifCameraSN;id_local;INTEGER;False;True;False
+225;AgInternedExifCameraSN;searchIndex;NOT SPECIFIED;False;False;False
+226;AgInternedExifCameraSN;value;NOT SPECIFIED;False;False;False
+227;AgInternedExifLens;id_local;INTEGER;False;True;False
+228;AgInternedExifLens;searchIndex;NOT SPECIFIED;False;False;False
+229;AgInternedExifLens;value;NOT SPECIFIED;False;False;False
+230;AgInternedIptcCity;id_local;INTEGER;False;True;False
+231;AgInternedIptcCity;searchIndex;NOT SPECIFIED;False;False;False
+232;AgInternedIptcCity;value;NOT SPECIFIED;False;False;False
+233;AgInternedIptcCountry;id_local;INTEGER;False;True;False
+234;AgInternedIptcCountry;searchIndex;NOT SPECIFIED;False;False;False
+235;AgInternedIptcCountry;value;NOT SPECIFIED;False;False;False
+236;AgInternedIptcCreator;id_local;INTEGER;False;True;False
+237;AgInternedIptcCreator;searchIndex;NOT SPECIFIED;False;False;False
+238;AgInternedIptcCreator;value;NOT SPECIFIED;False;False;False
+239;AgInternedIptcIsoCountryCode;id_local;INTEGER;False;True;False
+240;AgInternedIptcIsoCountryCode;searchIndex;NOT SPECIFIED;False;False;False
+241;AgInternedIptcIsoCountryCode;value;NOT SPECIFIED;False;False;False
+242;AgInternedIptcJobIdentifier;id_local;INTEGER;False;True;False
+243;AgInternedIptcJobIdentifier;searchIndex;NOT SPECIFIED;False;False;False
+244;AgInternedIptcJobIdentifier;value;NOT SPECIFIED;False;False;False
+245;AgInternedIptcLocation;id_local;INTEGER;False;True;False
+246;AgInternedIptcLocation;searchIndex;NOT SPECIFIED;False;False;False
+247;AgInternedIptcLocation;value;NOT SPECIFIED;False;False;False
+248;AgInternedIptcState;id_local;INTEGER;False;True;False
+249;AgInternedIptcState;searchIndex;NOT SPECIFIED;False;False;False
+250;AgInternedIptcState;value;NOT SPECIFIED;False;False;False
+251;AgLastCatalogExport;image;INTEGER;False;True;False
+252;AgLibraryCollection;id_local;INTEGER;False;True;False
+253;AgLibraryCollection;creationId;NOT SPECIFIED;True;False;False
+254;AgLibraryCollection;genealogy;NOT SPECIFIED;True;False;False
+255;AgLibraryCollection;imageCount;NOT SPECIFIED;False;False;False
+256;AgLibraryCollection;name;NOT SPECIFIED;True;False;False
+257;AgLibraryCollection;parent;INTEGER;False;False;False
+258;AgLibraryCollection;systemOnly;NOT SPECIFIED;True;False;False
+259;AgLibraryCollection;collection;NOT SPECIFIED;False;True;False
+260;AgLibraryCollection;changeCounter;NOT SPECIFIED;False;False;False
+261;AgLibraryCollection;id_local;INTEGER;False;True;False
+262;AgLibraryCollection;collection;INTEGER;True;False;False
+263;AgLibraryCollection;content;NOT SPECIFIED;False;False;False
+264;AgLibraryCollection;owningModule;NOT SPECIFIED;False;False;False
+265;AgLibraryCollection;collection;NOT SPECIFIED;False;True;False
+266;AgLibraryCollection;collectionImage;NOT SPECIFIED;True;False;False
+267;AgLibraryCollection;id_local;INTEGER;False;True;False
+268;AgLibraryCollection;collection;INTEGER;True;False;False
+269;AgLibraryCollection;image;INTEGER;True;False;False
+270;AgLibraryCollection;pick;NOT SPECIFIED;True;False;False
+271;AgLibraryCollection;positionInCollection;NOT SPECIFIED;False;False;False
+272;AgLibraryCollection;collectionImage;NOT SPECIFIED;False;True;False
+273;AgLibraryCollection;collection;NOT SPECIFIED;True;False;False
+274;AgLibraryCollection;image;NOT SPECIFIED;True;False;False
+275;AgLibraryCollection;changeCounter;NOT SPECIFIED;False;False;False
+276;AgLibraryCollection;collectionImage;NOT SPECIFIED;True;False;False
+277;AgLibraryCollection;collection;NOT SPECIFIED;True;False;False
+278;AgLibraryCollection;image;NOT SPECIFIED;True;False;False
+279;AgLibraryCollection;ozCatalogId;NOT SPECIFIED;True;False;False
+280;AgLibraryCollection;ozAlbumAssetId;NOT SPECIFIED;False;False;False
+281;AgLibraryCollection;collectionImage;NOT SPECIFIED;False;True;False
+282;AgLibraryCollection;collection;NOT SPECIFIED;True;False;False
+283;AgLibraryCollection;positionInCollection;NOT SPECIFIED;True;False;False
+284;AgLibraryCollection;ozSortOrder;NOT SPECIFIED;True;False;False
+285;AgLibraryCollection;id_local;INTEGER;False;True;False
+286;AgLibraryCollection;id_global;NOT SPECIFIED;True;False;True
+287;AgLibraryCollection;collection;INTEGER;True;False;False
+288;AgLibraryCollection;label;NOT SPECIFIED;False;False;False
+289;AgLibraryCollection;labelData;NOT SPECIFIED;False;False;False
+290;AgLibraryCollection;labelGenerics;NOT SPECIFIED;False;False;False
+291;AgLibraryCollection;labelType;NOT SPECIFIED;True;False;False
+292;AgLibraryCollection;collection;NOT SPECIFIED;True;False;False
+293;AgLibraryCollection;ozCatalogId;NOT SPECIFIED;True;False;False
+294;AgLibraryCollection;ozAlbumId;NOT SPECIFIED;False;False;False
+295;AgLibraryCollection;id_local;INTEGER;False;True;False
+296;AgLibraryCollection;id_global;NOT SPECIFIED;True;False;True
+297;AgLibraryCollection;collapsed;INTEGER;True;False;False
+298;AgLibraryCollection;collection;INTEGER;True;False;False
+299;AgLibraryCollection;text;NOT SPECIFIED;True;False;False
+300;AgLibraryCollection;stack;INTEGER;False;False;False
+301;AgLibraryCollection;collection;INTEGER;True;False;False
+302;AgLibraryCollection;stackCount;INTEGER;True;False;False
+303;AgLibraryCollection;stackParent;INTEGER;False;False;False
+304;AgLibraryCollection;id_local;INTEGER;False;True;False
+305;AgLibraryCollection;collapsed;INTEGER;True;False;False
+306;AgLibraryCollection;collection;INTEGER;True;False;False
+307;AgLibraryCollection;image;INTEGER;True;False;False
+308;AgLibraryCollection;position;NOT SPECIFIED;True;False;False
+309;AgLibraryCollection;stack;INTEGER;True;False;False
+310;AgLibraryCollection;collection;NOT SPECIFIED;True;False;False
+311;AgLibraryCollection;payloadKey;NOT SPECIFIED;True;False;False
+312;AgLibraryCollection;payloadData;NOT SPECIFIED;True;False;False
+313;AgLibraryCollection;collection;NOT SPECIFIED;True;False;False
+314;AgLibraryCollection;ozCatalogId;NOT SPECIFIED;False;False;False
+315;AgLibraryCollectionChangeCounter;collection;NOT SPECIFIED;False;True;False
+316;AgLibraryCollectionChangeCounter;changeCounter;NOT SPECIFIED;False;False;False
+317;AgLibraryCollectionContent;id_local;INTEGER;False;True;False
+318;AgLibraryCollectionContent;collection;INTEGER;True;False;False
+319;AgLibraryCollectionContent;content;NOT SPECIFIED;False;False;False
+320;AgLibraryCollectionContent;owningModule;NOT SPECIFIED;False;False;False
+321;AgLibraryCollectionCoverImage;collection;NOT SPECIFIED;False;True;False
+322;AgLibraryCollectionCoverImage;collectionImage;NOT SPECIFIED;True;False;False
+323;AgLibraryCollectionImage;id_local;INTEGER;False;True;False
+324;AgLibraryCollectionImage;collection;INTEGER;True;False;False
+325;AgLibraryCollectionImage;image;INTEGER;True;False;False
+326;AgLibraryCollectionImage;pick;NOT SPECIFIED;True;False;False
+327;AgLibraryCollectionImage;positionInCollection;NOT SPECIFIED;False;False;False
+328;AgLibraryCollectionImage;collectionImage;NOT SPECIFIED;False;True;False
+329;AgLibraryCollectionImage;collection;NOT SPECIFIED;True;False;False
+330;AgLibraryCollectionImage;image;NOT SPECIFIED;True;False;False
+331;AgLibraryCollectionImage;changeCounter;NOT SPECIFIED;False;False;False
+332;AgLibraryCollectionImage;collectionImage;NOT SPECIFIED;True;False;False
+333;AgLibraryCollectionImage;collection;NOT SPECIFIED;True;False;False
+334;AgLibraryCollectionImage;image;NOT SPECIFIED;True;False;False
+335;AgLibraryCollectionImage;ozCatalogId;NOT SPECIFIED;True;False;False
+336;AgLibraryCollectionImage;ozAlbumAssetId;NOT SPECIFIED;False;False;False
+337;AgLibraryCollectionImage;collectionImage;NOT SPECIFIED;False;True;False
+338;AgLibraryCollectionImage;collection;NOT SPECIFIED;True;False;False
+339;AgLibraryCollectionImage;positionInCollection;NOT SPECIFIED;True;False;False
+340;AgLibraryCollectionImage;ozSortOrder;NOT SPECIFIED;True;False;False
+341;AgLibraryCollectionImageChangeCounter;collectionImage;NOT SPECIFIED;False;True;False
+342;AgLibraryCollectionImageChangeCounter;collection;NOT SPECIFIED;True;False;False
+343;AgLibraryCollectionImageChangeCounter;image;NOT SPECIFIED;True;False;False
+344;AgLibraryCollectionImageChangeCounter;changeCounter;NOT SPECIFIED;False;False;False
+345;AgLibraryCollectionImageOzAlbumAssetIds;collectionImage;NOT SPECIFIED;True;False;False
+346;AgLibraryCollectionImageOzAlbumAssetIds;collection;NOT SPECIFIED;True;False;False
+347;AgLibraryCollectionImageOzAlbumAssetIds;image;NOT SPECIFIED;True;False;False
+348;AgLibraryCollectionImageOzAlbumAssetIds;ozCatalogId;NOT SPECIFIED;True;False;False
+349;AgLibraryCollectionImageOzAlbumAssetIds;ozAlbumAssetId;NOT SPECIFIED;False;False;False
+350;AgLibraryCollectionImageOzSortOrder;collectionImage;NOT SPECIFIED;False;True;False
+351;AgLibraryCollectionImageOzSortOrder;collection;NOT SPECIFIED;True;False;False
+352;AgLibraryCollectionImageOzSortOrder;positionInCollection;NOT SPECIFIED;True;False;False
+353;AgLibraryCollectionImageOzSortOrder;ozSortOrder;NOT SPECIFIED;True;False;False
+354;AgLibraryCollectionLabel;id_local;INTEGER;False;True;False
+355;AgLibraryCollectionLabel;id_global;NOT SPECIFIED;True;False;True
+356;AgLibraryCollectionLabel;collection;INTEGER;True;False;False
+357;AgLibraryCollectionLabel;label;NOT SPECIFIED;False;False;False
+358;AgLibraryCollectionLabel;labelData;NOT SPECIFIED;False;False;False
+359;AgLibraryCollectionLabel;labelGenerics;NOT SPECIFIED;False;False;False
+360;AgLibraryCollectionLabel;labelType;NOT SPECIFIED;True;False;False
+361;AgLibraryCollectionOzAlbumIds;collection;NOT SPECIFIED;True;False;False
+362;AgLibraryCollectionOzAlbumIds;ozCatalogId;NOT SPECIFIED;True;False;False
+363;AgLibraryCollectionOzAlbumIds;ozAlbumId;NOT SPECIFIED;False;False;False
+364;AgLibraryCollectionStack;id_local;INTEGER;False;True;False
+365;AgLibraryCollectionStack;id_global;NOT SPECIFIED;True;False;True
+366;AgLibraryCollectionStack;collapsed;INTEGER;True;False;False
+367;AgLibraryCollectionStack;collection;INTEGER;True;False;False
+368;AgLibraryCollectionStack;text;NOT SPECIFIED;True;False;False
+369;AgLibraryCollectionStack;stack;INTEGER;False;False;False
+370;AgLibraryCollectionStack;collection;INTEGER;True;False;False
+371;AgLibraryCollectionStack;stackCount;INTEGER;True;False;False
+372;AgLibraryCollectionStack;stackParent;INTEGER;False;False;False
+373;AgLibraryCollectionStack;id_local;INTEGER;False;True;False
+374;AgLibraryCollectionStack;collapsed;INTEGER;True;False;False
+375;AgLibraryCollectionStack;collection;INTEGER;True;False;False
+376;AgLibraryCollectionStack;image;INTEGER;True;False;False
+377;AgLibraryCollectionStack;position;NOT SPECIFIED;True;False;False
+378;AgLibraryCollectionStack;stack;INTEGER;True;False;False
+379;AgLibraryCollectionStackData;stack;INTEGER;False;False;False
+380;AgLibraryCollectionStackData;collection;INTEGER;True;False;False
+381;AgLibraryCollectionStackData;stackCount;INTEGER;True;False;False
+382;AgLibraryCollectionStackData;stackParent;INTEGER;False;False;False
+383;AgLibraryCollectionStackImage;id_local;INTEGER;False;True;False
+384;AgLibraryCollectionStackImage;collapsed;INTEGER;True;False;False
+385;AgLibraryCollectionStackImage;collection;INTEGER;True;False;False
+386;AgLibraryCollectionStackImage;image;INTEGER;True;False;False
+387;AgLibraryCollectionStackImage;position;NOT SPECIFIED;True;False;False
+388;AgLibraryCollectionStackImage;stack;INTEGER;True;False;False
+389;AgLibraryCollectionSyncedAlbumData;collection;NOT SPECIFIED;True;False;False
+390;AgLibraryCollectionSyncedAlbumData;payloadKey;NOT SPECIFIED;True;False;False
+391;AgLibraryCollectionSyncedAlbumData;payloadData;NOT SPECIFIED;True;False;False
+392;AgLibraryCollectionTrackedAssets;collection;NOT SPECIFIED;True;False;False
+393;AgLibraryCollectionTrackedAssets;ozCatalogId;NOT SPECIFIED;False;False;False
+394;AgLibraryFace;id_local;INTEGER;False;True;False
+395;AgLibraryFace;bl_x;NOT SPECIFIED;False;False;False
+396;AgLibraryFace;bl_y;NOT SPECIFIED;False;False;False
+397;AgLibraryFace;br_x;NOT SPECIFIED;False;False;False
+398;AgLibraryFace;br_y;NOT SPECIFIED;False;False;False
+399;AgLibraryFace;cluster;INTEGER;False;False;False
+400;AgLibraryFace;compatibleVersion;NOT SPECIFIED;False;False;False
+401;AgLibraryFace;ignored;INTEGER;False;False;False
+402;AgLibraryFace;image;INTEGER;True;False;False
+403;AgLibraryFace;imageOrientation;NOT SPECIFIED;True;False;False
+404;AgLibraryFace;orientation;NOT SPECIFIED;False;False;False
+405;AgLibraryFace;origination;NOT SPECIFIED;True;False;False
+406;AgLibraryFace;propertiesCache;NOT SPECIFIED;False;False;False
+407;AgLibraryFace;regionType;NOT SPECIFIED;True;False;False
+408;AgLibraryFace;skipSuggestion;INTEGER;False;False;False
+409;AgLibraryFace;tl_x;NOT SPECIFIED;True;False;False
+410;AgLibraryFace;tl_y;NOT SPECIFIED;True;False;False
+411;AgLibraryFace;touchCount;NOT SPECIFIED;True;False;False
+412;AgLibraryFace;touchTime;NOT SPECIFIED;True;False;False
+413;AgLibraryFace;tr_x;NOT SPECIFIED;False;False;False
+414;AgLibraryFace;tr_y;NOT SPECIFIED;False;False;False
+415;AgLibraryFace;version;NOT SPECIFIED;False;False;False
+416;AgLibraryFace;id_local;INTEGER;False;True;False
+417;AgLibraryFace;keyFace;INTEGER;False;False;False
+418;AgLibraryFace;id_local;INTEGER;False;True;False
+419;AgLibraryFace;data;NOT SPECIFIED;False;False;False
+420;AgLibraryFace;face;INTEGER;True;False;False
+421;AgLibraryFaceCluster;id_local;INTEGER;False;True;False
+422;AgLibraryFaceCluster;keyFace;INTEGER;False;False;False
+423;AgLibraryFaceData;id_local;INTEGER;False;True;False
+424;AgLibraryFaceData;data;NOT SPECIFIED;False;False;False
+425;AgLibraryFaceData;face;INTEGER;True;False;False
+426;AgLibraryFile;id_local;INTEGER;False;True;False
+427;AgLibraryFile;id_global;NOT SPECIFIED;True;False;True
+428;AgLibraryFile;baseName;NOT SPECIFIED;True;False;False
+429;AgLibraryFile;errorMessage;NOT SPECIFIED;False;False;False
+430;AgLibraryFile;errorTime;NOT SPECIFIED;False;False;False
+431;AgLibraryFile;extension;NOT SPECIFIED;True;False;False
+432;AgLibraryFile;externalModTime;NOT SPECIFIED;False;False;False
+433;AgLibraryFile;folder;INTEGER;True;False;False
+434;AgLibraryFile;idx_filename;NOT SPECIFIED;True;False;False
+435;AgLibraryFile;importHash;NOT SPECIFIED;False;False;False
+436;AgLibraryFile;lc_idx_filename;NOT SPECIFIED;True;False;False
+437;AgLibraryFile;lc_idx_filenameExtension;NOT SPECIFIED;True;False;False
+438;AgLibraryFile;md5;NOT SPECIFIED;False;False;False
+439;AgLibraryFile;modTime;NOT SPECIFIED;False;False;False
+440;AgLibraryFile;originalFilename;NOT SPECIFIED;True;False;False
+441;AgLibraryFile;sidecarExtensions;NOT SPECIFIED;False;False;False
+442;AgLibraryFile;fileId;NOT SPECIFIED;False;True;False
+443;AgLibraryFile;sha256;NOT SPECIFIED;True;False;False
+444;AgLibraryFile;fileSize;NOT SPECIFIED;False;False;False
+445;AgLibraryFileAssetMetadata;fileId;NOT SPECIFIED;False;True;False
+446;AgLibraryFileAssetMetadata;sha256;NOT SPECIFIED;True;False;False
+447;AgLibraryFileAssetMetadata;fileSize;NOT SPECIFIED;False;False;False
+448;AgLibraryFolder;id_local;INTEGER;False;True;False
+449;AgLibraryFolder;id_global;NOT SPECIFIED;True;False;True
+450;AgLibraryFolder;parentId;INTEGER;False;False;False
+451;AgLibraryFolder;pathFromRoot;NOT SPECIFIED;True;False;False
+452;AgLibraryFolder;rootFolder;INTEGER;True;False;False
+453;AgLibraryFolder;visibility;INTEGER;False;False;False
+454;AgLibraryFolder;id_local;INTEGER;False;True;False
+455;AgLibraryFolder;id_global;NOT SPECIFIED;True;False;True
+456;AgLibraryFolder;favorite;NOT SPECIFIED;False;False;False
+457;AgLibraryFolder;folder;INTEGER;True;False;False
+458;AgLibraryFolder;id_local;INTEGER;False;True;False
+459;AgLibraryFolder;id_global;NOT SPECIFIED;True;False;True
+460;AgLibraryFolder;folder;INTEGER;True;False;False
+461;AgLibraryFolder;label;NOT SPECIFIED;False;False;False
+462;AgLibraryFolder;labelData;NOT SPECIFIED;False;False;False
+463;AgLibraryFolder;labelGenerics;NOT SPECIFIED;False;False;False
+464;AgLibraryFolder;labelType;NOT SPECIFIED;True;False;False
+465;AgLibraryFolder;id_local;INTEGER;False;True;False
+466;AgLibraryFolder;id_global;NOT SPECIFIED;True;False;True
+467;AgLibraryFolder;collapsed;INTEGER;True;False;False
+468;AgLibraryFolder;text;NOT SPECIFIED;True;False;False
+469;AgLibraryFolder;stack;INTEGER;False;False;False
+470;AgLibraryFolder;stackCount;INTEGER;True;False;False
+471;AgLibraryFolder;stackParent;INTEGER;False;False;False
+472;AgLibraryFolder;id_local;INTEGER;False;True;False
+473;AgLibraryFolder;collapsed;INTEGER;True;False;False
+474;AgLibraryFolder;image;INTEGER;True;False;False
+475;AgLibraryFolder;position;NOT SPECIFIED;True;False;False
+476;AgLibraryFolder;stack;INTEGER;True;False;False
+477;AgLibraryFolderFavorite;id_local;INTEGER;False;True;False
+478;AgLibraryFolderFavorite;id_global;NOT SPECIFIED;True;False;True
+479;AgLibraryFolderFavorite;favorite;NOT SPECIFIED;False;False;False
+480;AgLibraryFolderFavorite;folder;INTEGER;True;False;False
+481;AgLibraryFolderLabel;id_local;INTEGER;False;True;False
+482;AgLibraryFolderLabel;id_global;NOT SPECIFIED;True;False;True
+483;AgLibraryFolderLabel;folder;INTEGER;True;False;False
+484;AgLibraryFolderLabel;label;NOT SPECIFIED;False;False;False
+485;AgLibraryFolderLabel;labelData;NOT SPECIFIED;False;False;False
+486;AgLibraryFolderLabel;labelGenerics;NOT SPECIFIED;False;False;False
+487;AgLibraryFolderLabel;labelType;NOT SPECIFIED;True;False;False
+488;AgLibraryFolderStack;id_local;INTEGER;False;True;False
+489;AgLibraryFolderStack;id_global;NOT SPECIFIED;True;False;True
+490;AgLibraryFolderStack;collapsed;INTEGER;True;False;False
+491;AgLibraryFolderStack;text;NOT SPECIFIED;True;False;False
+492;AgLibraryFolderStack;stack;INTEGER;False;False;False
+493;AgLibraryFolderStack;stackCount;INTEGER;True;False;False
+494;AgLibraryFolderStack;stackParent;INTEGER;False;False;False
+495;AgLibraryFolderStack;id_local;INTEGER;False;True;False
+496;AgLibraryFolderStack;collapsed;INTEGER;True;False;False
+497;AgLibraryFolderStack;image;INTEGER;True;False;False
+498;AgLibraryFolderStack;position;NOT SPECIFIED;True;False;False
+499;AgLibraryFolderStack;stack;INTEGER;True;False;False
+500;AgLibraryFolderStackData;stack;INTEGER;False;False;False
+501;AgLibraryFolderStackData;stackCount;INTEGER;True;False;False
+502;AgLibraryFolderStackData;stackParent;INTEGER;False;False;False
+503;AgLibraryFolderStackImage;id_local;INTEGER;False;True;False
+504;AgLibraryFolderStackImage;collapsed;INTEGER;True;False;False
+505;AgLibraryFolderStackImage;image;INTEGER;True;False;False
+506;AgLibraryFolderStackImage;position;NOT SPECIFIED;True;False;False
+507;AgLibraryFolderStackImage;stack;INTEGER;True;False;False
+508;AgLibraryImageChangeCounter;image;NOT SPECIFIED;False;True;False
+509;AgLibraryImageChangeCounter;changeCounter;NOT SPECIFIED;False;False;False
+510;AgLibraryImageChangeCounter;changedAtTime;NOT SPECIFIED;False;False;False
+511;AgLibraryImageChangeCounter;localTimeOffsetSecs;NOT SPECIFIED;False;False;False
+512;AgLibraryImageOzAssetIds;image;NOT SPECIFIED;True;False;False
+513;AgLibraryImageOzAssetIds;ozCatalogId;NOT SPECIFIED;True;False;False
+514;AgLibraryImageOzAssetIds;ozAssetId;NOT SPECIFIED;False;False;False
+515;AgLibraryImageOzAssetIds;ownedByCatalog;NOT SPECIFIED;False;False;False
+516;AgLibraryImageSaveXMP;id_local;INTEGER;False;True;False
+517;AgLibraryImageSaveXMP;taskID;NOT SPECIFIED;True;False;True
+518;AgLibraryImageSaveXMP;taskStatus;NOT SPECIFIED;True;False;False
+519;AgLibraryImageSaveXMP;whenPosted;NOT SPECIFIED;True;False;False
+520;AgLibraryImageSearchData;id_local;INTEGER;False;True;False
+521;AgLibraryImageSearchData;featInfo;NOT SPECIFIED;False;False;False
+522;AgLibraryImageSearchData;height;NOT SPECIFIED;False;False;False
+523;AgLibraryImageSearchData;idDesc;NOT SPECIFIED;False;False;False
+524;AgLibraryImageSearchData;idDescCh;NOT SPECIFIED;False;False;False
+525;AgLibraryImageSearchData;image;INTEGER;True;False;False
+526;AgLibraryImageSearchData;width;NOT SPECIFIED;False;False;False
+527;AgLibraryImageSyncedAssetData;image;NOT SPECIFIED;True;False;False
+528;AgLibraryImageSyncedAssetData;payloadKey;NOT SPECIFIED;True;False;False
+529;AgLibraryImageSyncedAssetData;payloadData;NOT SPECIFIED;True;False;False
+530;AgLibraryImageXMPUpdater;id_local;INTEGER;False;True;False
+531;AgLibraryImageXMPUpdater;taskID;NOT SPECIFIED;True;False;True
+532;AgLibraryImageXMPUpdater;taskStatus;NOT SPECIFIED;True;False;False
+533;AgLibraryImageXMPUpdater;whenPosted;NOT SPECIFIED;True;False;False
+534;AgLibraryImport;id_local;INTEGER;False;True;False
+535;AgLibraryImport;imageCount;NOT SPECIFIED;False;False;False
+536;AgLibraryImport;importDate;NOT SPECIFIED;True;False;False
+537;AgLibraryImport;name;NOT SPECIFIED;False;False;False
+538;AgLibraryImport;id_local;INTEGER;False;True;False
+539;AgLibraryImport;image;INTEGER;True;False;False
+540;AgLibraryImport;import;INTEGER;True;False;False
+541;AgLibraryImportImage;id_local;INTEGER;False;True;False
+542;AgLibraryImportImage;image;INTEGER;True;False;False
+543;AgLibraryImportImage;import;INTEGER;True;False;False
+544;AgLibraryIPTC;id_local;INTEGER;False;True;False
+545;AgLibraryIPTC;caption;NOT SPECIFIED;False;False;False
+546;AgLibraryIPTC;copyright;NOT SPECIFIED;False;False;False
+547;AgLibraryIPTC;image;INTEGER;True;False;False
+548;AgLibraryKeyword;id_local;INTEGER;False;True;False
+549;AgLibraryKeyword;id_global;NOT SPECIFIED;True;False;True
+550;AgLibraryKeyword;dateCreated;NOT SPECIFIED;True;False;False
+551;AgLibraryKeyword;genealogy;NOT SPECIFIED;True;False;False
+552;AgLibraryKeyword;imageCountCache;NOT SPECIFIED;False;False;False
+553;AgLibraryKeyword;includeOnExport;INTEGER;True;False;False
+554;AgLibraryKeyword;includeParents;INTEGER;True;False;False
+555;AgLibraryKeyword;includeSynonyms;INTEGER;True;False;False
+556;AgLibraryKeyword;keywordType;NOT SPECIFIED;False;False;False
+557;AgLibraryKeyword;lastApplied;NOT SPECIFIED;False;False;False
+558;AgLibraryKeyword;lc_name;NOT SPECIFIED;False;False;False
+559;AgLibraryKeyword;name;NOT SPECIFIED;False;False;False
+560;AgLibraryKeyword;parent;INTEGER;False;False;False
+561;AgLibraryKeyword;id_local;INTEGER;False;True;False
+562;AgLibraryKeyword;tag1;NOT SPECIFIED;True;False;False
+563;AgLibraryKeyword;tag2;NOT SPECIFIED;True;False;False
+564;AgLibraryKeyword;value;NOT SPECIFIED;True;False;False
+565;AgLibraryKeyword;id_local;INTEGER;False;True;False
+566;AgLibraryKeyword;face;INTEGER;True;False;False
+567;AgLibraryKeyword;keyFace;INTEGER;False;False;False
+568;AgLibraryKeyword;rankOrder;NOT SPECIFIED;False;False;False
+569;AgLibraryKeyword;tag;INTEGER;True;False;False
+570;AgLibraryKeyword;userPick;INTEGER;False;False;False
+571;AgLibraryKeyword;userReject;INTEGER;False;False;False
+572;AgLibraryKeyword;id_local;INTEGER;False;True;False
+573;AgLibraryKeyword;image;INTEGER;True;False;False
+574;AgLibraryKeyword;tag;INTEGER;True;False;False
+575;AgLibraryKeyword;id_local;INTEGER;False;True;False
+576;AgLibraryKeyword;occurrences;NOT SPECIFIED;True;False;False
+577;AgLibraryKeyword;popularity;NOT SPECIFIED;True;False;False
+578;AgLibraryKeyword;tag;NOT SPECIFIED;True;False;True
+579;AgLibraryKeyword;id_local;INTEGER;False;True;False
+580;AgLibraryKeyword;keyword;INTEGER;True;False;False
+581;AgLibraryKeyword;lc_name;NOT SPECIFIED;False;False;False
+582;AgLibraryKeyword;name;NOT SPECIFIED;False;False;False
+583;AgLibraryKeywordCooccurrence;id_local;INTEGER;False;True;False
+584;AgLibraryKeywordCooccurrence;tag1;NOT SPECIFIED;True;False;False
+585;AgLibraryKeywordCooccurrence;tag2;NOT SPECIFIED;True;False;False
+586;AgLibraryKeywordCooccurrence;value;NOT SPECIFIED;True;False;False
+587;AgLibraryKeywordFace;id_local;INTEGER;False;True;False
+588;AgLibraryKeywordFace;face;INTEGER;True;False;False
+589;AgLibraryKeywordFace;keyFace;INTEGER;False;False;False
+590;AgLibraryKeywordFace;rankOrder;NOT SPECIFIED;False;False;False
+591;AgLibraryKeywordFace;tag;INTEGER;True;False;False
+592;AgLibraryKeywordFace;userPick;INTEGER;False;False;False
+593;AgLibraryKeywordFace;userReject;INTEGER;False;False;False
+594;AgLibraryKeywordImage;id_local;INTEGER;False;True;False
+595;AgLibraryKeywordImage;image;INTEGER;True;False;False
+596;AgLibraryKeywordImage;tag;INTEGER;True;False;False
+597;AgLibraryKeywordPopularity;id_local;INTEGER;False;True;False
+598;AgLibraryKeywordPopularity;occurrences;NOT SPECIFIED;True;False;False
+599;AgLibraryKeywordPopularity;popularity;NOT SPECIFIED;True;False;False
+600;AgLibraryKeywordPopularity;tag;NOT SPECIFIED;True;False;True
+601;AgLibraryKeywordSynonym;id_local;INTEGER;False;True;False
+602;AgLibraryKeywordSynonym;keyword;INTEGER;True;False;False
+603;AgLibraryKeywordSynonym;lc_name;NOT SPECIFIED;False;False;False
+604;AgLibraryKeywordSynonym;name;NOT SPECIFIED;False;False;False
+605;AgLibraryOzCommentIds;ozCatalogId;NOT SPECIFIED;True;False;False
+606;AgLibraryOzCommentIds;ozSpaceId;NOT SPECIFIED;True;False;False
+607;AgLibraryOzCommentIds;ozAssetId;NOT SPECIFIED;True;False;False
+608;AgLibraryOzCommentIds;ozCommentId;NOT SPECIFIED;True;False;False
+609;AgLibraryOzCommentIds;timestamp;NOT SPECIFIED;True;False;False
+610;AgLibraryOzFavoriteIds;ozCatalogId;NOT SPECIFIED;True;False;False
+611;AgLibraryOzFavoriteIds;ozSpaceId;NOT SPECIFIED;True;False;False
+612;AgLibraryOzFavoriteIds;ozAssetId;NOT SPECIFIED;True;False;False
+613;AgLibraryOzFavoriteIds;ozFavoriteId;NOT SPECIFIED;True;False;False
+614;AgLibraryOzFavoriteIds;timestamp;NOT SPECIFIED;True;False;False
+615;AgLibraryOzFeedbackInfo;id_local;INTEGER;False;True;False
+616;AgLibraryOzFeedbackInfo;image;NOT SPECIFIED;True;False;False
+617;AgLibraryOzFeedbackInfo;lastFeedbackTime;NOT SPECIFIED;False;False;False
+618;AgLibraryOzFeedbackInfo;lastReadTime;NOT SPECIFIED;False;False;False
+619;AgLibraryOzFeedbackInfo;newCommentCount;NOT SPECIFIED;True;False;False
+620;AgLibraryOzFeedbackInfo;newFavoriteCount;NOT SPECIFIED;True;False;False
+621;AgLibraryOzFeedbackInfo;ozAssetId;NOT SPECIFIED;True;False;False
+622;AgLibraryOzFeedbackInfo;ozCatalogId;NOT SPECIFIED;True;False;False
+623;AgLibraryOzFeedbackInfo;ozSpaceId;NOT SPECIFIED;True;False;False
+624;AgLibraryPublishedCollection;id_local;INTEGER;False;True;False
+625;AgLibraryPublishedCollection;creationId;NOT SPECIFIED;True;False;False
+626;AgLibraryPublishedCollection;genealogy;NOT SPECIFIED;True;False;False
+627;AgLibraryPublishedCollection;imageCount;NOT SPECIFIED;False;False;False
+628;AgLibraryPublishedCollection;isDefaultCollection;NOT SPECIFIED;False;False;False
+629;AgLibraryPublishedCollection;name;NOT SPECIFIED;True;False;False
+630;AgLibraryPublishedCollection;parent;INTEGER;False;False;False
+631;AgLibraryPublishedCollection;publishedUrl;NOT SPECIFIED;False;False;False
+632;AgLibraryPublishedCollection;remoteCollectionId;NOT SPECIFIED;False;False;False
+633;AgLibraryPublishedCollection;systemOnly;NOT SPECIFIED;True;False;False
+634;AgLibraryPublishedCollection;id_local;INTEGER;False;True;False
+635;AgLibraryPublishedCollection;collection;INTEGER;True;False;False
+636;AgLibraryPublishedCollection;content;NOT SPECIFIED;False;False;False
+637;AgLibraryPublishedCollection;owningModule;NOT SPECIFIED;False;False;False
+638;AgLibraryPublishedCollection;id_local;INTEGER;False;True;False
+639;AgLibraryPublishedCollection;collection;INTEGER;True;False;False
+640;AgLibraryPublishedCollection;image;INTEGER;True;False;False
+641;AgLibraryPublishedCollection;pick;NOT SPECIFIED;True;False;False
+642;AgLibraryPublishedCollection;positionInCollection;NOT SPECIFIED;False;False;False
+643;AgLibraryPublishedCollection;id_local;INTEGER;False;True;False
+644;AgLibraryPublishedCollection;id_global;NOT SPECIFIED;True;False;True
+645;AgLibraryPublishedCollection;collection;INTEGER;True;False;False
+646;AgLibraryPublishedCollection;label;NOT SPECIFIED;False;False;False
+647;AgLibraryPublishedCollection;labelData;NOT SPECIFIED;False;False;False
+648;AgLibraryPublishedCollection;labelGenerics;NOT SPECIFIED;False;False;False
+649;AgLibraryPublishedCollection;labelType;NOT SPECIFIED;True;False;False
+650;AgLibraryPublishedCollectionContent;id_local;INTEGER;False;True;False
+651;AgLibraryPublishedCollectionContent;collection;INTEGER;True;False;False
+652;AgLibraryPublishedCollectionContent;content;NOT SPECIFIED;False;False;False
+653;AgLibraryPublishedCollectionContent;owningModule;NOT SPECIFIED;False;False;False
+654;AgLibraryPublishedCollectionImage;id_local;INTEGER;False;True;False
+655;AgLibraryPublishedCollectionImage;collection;INTEGER;True;False;False
+656;AgLibraryPublishedCollectionImage;image;INTEGER;True;False;False
+657;AgLibraryPublishedCollectionImage;pick;NOT SPECIFIED;True;False;False
+658;AgLibraryPublishedCollectionImage;positionInCollection;NOT SPECIFIED;False;False;False
+659;AgLibraryPublishedCollectionLabel;id_local;INTEGER;False;True;False
+660;AgLibraryPublishedCollectionLabel;id_global;NOT SPECIFIED;True;False;True
+661;AgLibraryPublishedCollectionLabel;collection;INTEGER;True;False;False
+662;AgLibraryPublishedCollectionLabel;label;NOT SPECIFIED;False;False;False
+663;AgLibraryPublishedCollectionLabel;labelData;NOT SPECIFIED;False;False;False
+664;AgLibraryPublishedCollectionLabel;labelGenerics;NOT SPECIFIED;False;False;False
+665;AgLibraryPublishedCollectionLabel;labelType;NOT SPECIFIED;True;False;False
+666;AgLibraryRootFolder;id_local;INTEGER;False;True;False
+667;AgLibraryRootFolder;id_global;NOT SPECIFIED;True;False;True
+668;AgLibraryRootFolder;absolutePath;NOT SPECIFIED;True;False;True
+669;AgLibraryRootFolder;name;NOT SPECIFIED;True;False;False
+670;AgLibraryRootFolder;relativePathFromCatalog;NOT SPECIFIED;False;False;False
+671;AgLibraryUpdatedImages;image;INTEGER;False;True;False
+672;AgMetadataSearchIndex;id_local;INTEGER;False;True;False
+673;AgMetadataSearchIndex;exifSearchIndex;NOT SPECIFIED;True;False;False
+674;AgMetadataSearchIndex;image;INTEGER;False;False;False
+675;AgMetadataSearchIndex;iptcSearchIndex;NOT SPECIFIED;True;False;False
+676;AgMetadataSearchIndex;otherSearchIndex;NOT SPECIFIED;True;False;False
+677;AgMetadataSearchIndex;searchIndex;NOT SPECIFIED;True;False;False
+678;AgMRULists;id_local;INTEGER;False;True;False
+679;AgMRULists;listID;NOT SPECIFIED;True;False;False
+680;AgMRULists;timestamp;NOT SPECIFIED;True;False;False
+681;AgMRULists;value;NOT SPECIFIED;True;False;False
+682;AgOutputImageAsset;id_local;INTEGER;False;True;False
+683;AgOutputImageAsset;assetId;NOT SPECIFIED;True;False;False
+684;AgOutputImageAsset;collection;INTEGER;True;False;False
+685;AgOutputImageAsset;image;INTEGER;True;False;False
+686;AgOutputImageAsset;moduleId;NOT SPECIFIED;True;False;False
+687;AgOzAuxBinaryMetadata;auxId;NOT SPECIFIED;True;False;False
+688;AgOzAuxBinaryMetadata;ozAssetId;NOT SPECIFIED;True;False;False
+689;AgOzAuxBinaryMetadata;ozCatalogId;NOT SPECIFIED;True;False;False
+690;AgOzAuxBinaryMetadata;digest;NOT SPECIFIED;True;False;False
+691;AgOzAuxBinaryMetadata;sha256;NOT SPECIFIED;True;False;False
+692;AgOzAuxBinaryMetadata;fileSize;NOT SPECIFIED;False;False;False
+693;AgOzAuxBinaryMetadata;type;NOT SPECIFIED;True;False;False
+694;AgOzCorruptedAuxIds;auxId;NOT SPECIFIED;True;False;False
+695;AgOzCorruptedAuxIds;ozAssetId;NOT SPECIFIED;True;False;False
+696;AgOzCorruptedAuxIds;ozCatalogId;NOT SPECIFIED;True;False;False
+697;AgOzSpaceAlbumIds;ozCatalogId;NOT SPECIFIED;True;False;False
+698;AgOzSpaceAlbumIds;ozAlbumId;NOT SPECIFIED;True;False;False
+699;AgOzSpaceAlbumIds;ozSpaceId;NOT SPECIFIED;True;False;False
+700;AgOzSpaceAlbumIds;ozSpaceAlbumId;NOT SPECIFIED;True;False;False
+701;AgOzSpaceIds;ozCatalogId;NOT SPECIFIED;True;False;False
+702;AgOzSpaceIds;ozSpaceId;NOT SPECIFIED;True;False;False
+703;AgPendingOzAlbumAssetIds;ozCatalogId;NOT SPECIFIED;True;False;False
+704;AgPendingOzAlbumAssetIds;ozAlbumAssetId;NOT SPECIFIED;True;False;False
+705;AgPendingOzAlbumAssetIds;ozAssetId;NOT SPECIFIED;True;False;False
+706;AgPendingOzAlbumAssetIds;ozAlbumId;NOT SPECIFIED;True;False;False
+707;AgPendingOzAlbumAssetIds;ozSortOrder;NOT SPECIFIED;False;False;False
+708;AgPendingOzAlbumAssetIds;ozIsCover;NOT SPECIFIED;False;False;False
+709;AgPendingOzAssetBinaryDownloads;ozAssetId;NOT SPECIFIED;True;False;False
+710;AgPendingOzAssetBinaryDownloads;ozCatalogId;NOT SPECIFIED;True;False;False
+711;AgPendingOzAssetBinaryDownloads;whenQueued;NOT SPECIFIED;True;False;False
+712;AgPendingOzAssetBinaryDownloads;path;NOT SPECIFIED;True;False;False
+713;AgPendingOzAssetBinaryDownloads;state;NOT SPECIFIED;False;False;False
+714;AgPendingOzAssetDevelopSettings;ozAssetId;NOT SPECIFIED;True;False;False
+715;AgPendingOzAssetDevelopSettings;ozCatalogId;NOT SPECIFIED;True;False;False
+716;AgPendingOzAssetDevelopSettings;payloadHash;NOT SPECIFIED;True;False;False
+717;AgPendingOzAssetDevelopSettings;developUserUpdated;NOT SPECIFIED;False;False;False
+718;AgPendingOzAssets;ozAssetId;NOT SPECIFIED;True;False;False
+719;AgPendingOzAssets;ozCatalogId;NOT SPECIFIED;True;False;False
+720;AgPendingOzAssets;state;NOT SPECIFIED;False;False;False
+721;AgPendingOzAssets;path;NOT SPECIFIED;True;False;False
+722;AgPendingOzAssets;payload;NOT SPECIFIED;True;False;False
+723;AgPendingOzAuxBinaryDownloads;auxId;NOT SPECIFIED;True;False;False
+724;AgPendingOzAuxBinaryDownloads;ozAssetId;NOT SPECIFIED;True;False;False
+725;AgPendingOzAuxBinaryDownloads;ozCatalogId;NOT SPECIFIED;True;False;False
+726;AgPendingOzAuxBinaryDownloads;payloadHash;NOT SPECIFIED;True;False;False
+727;AgPendingOzAuxBinaryDownloads;whenQueued;NOT SPECIFIED;True;False;False
+728;AgPendingOzAuxBinaryDownloads;state;NOT SPECIFIED;True;False;False
+729;AgPhotoComment;id_local;INTEGER;False;True;False
+730;AgPhotoComment;id_global;NOT SPECIFIED;True;False;True
+731;AgPhotoComment;comment;NOT SPECIFIED;False;False;False
+732;AgPhotoComment;commentRealname;NOT SPECIFIED;False;False;False
+733;AgPhotoComment;commentUsername;NOT SPECIFIED;False;False;False
+734;AgPhotoComment;dateCreated;NOT SPECIFIED;False;False;False
+735;AgPhotoComment;photo;INTEGER;True;False;False
+736;AgPhotoComment;remoteId;NOT SPECIFIED;True;False;False
+737;AgPhotoComment;remotePhoto;INTEGER;False;False;False
+738;AgPhotoComment;url;NOT SPECIFIED;False;False;False
+739;AgPhotoProperty;id_local;INTEGER;False;True;False
+740;AgPhotoProperty;id_global;NOT SPECIFIED;True;False;True
+741;AgPhotoProperty;dataType;NOT SPECIFIED;False;False;False
+742;AgPhotoProperty;internalValue;NOT SPECIFIED;False;False;False
+743;AgPhotoProperty;photo;INTEGER;True;False;False
+744;AgPhotoProperty;propertySpec;INTEGER;True;False;False
+745;AgPhotoProperty;id_local;INTEGER;False;True;False
+746;AgPhotoProperty;id_global;NOT SPECIFIED;True;False;True
+747;AgPhotoProperty;arrayIndex;NOT SPECIFIED;True;False;False
+748;AgPhotoProperty;dataType;NOT SPECIFIED;False;False;False
+749;AgPhotoProperty;internalValue;NOT SPECIFIED;False;False;False
+750;AgPhotoProperty;photo;INTEGER;True;False;False
+751;AgPhotoProperty;propertySpec;INTEGER;True;False;False
+752;AgPhotoProperty;id_local;INTEGER;False;True;False
+753;AgPhotoProperty;id_global;NOT SPECIFIED;True;False;True
+754;AgPhotoProperty;flattenedAttributes;NOT SPECIFIED;False;False;False
+755;AgPhotoProperty;key;NOT SPECIFIED;True;False;False
+756;AgPhotoProperty;pluginVersion;NOT SPECIFIED;True;False;False
+757;AgPhotoProperty;sourcePlugin;NOT SPECIFIED;True;False;False
+758;AgPhotoProperty;userVisibleName;NOT SPECIFIED;False;False;False
+759;AgPhotoPropertyArrayElement;id_local;INTEGER;False;True;False
+760;AgPhotoPropertyArrayElement;id_global;NOT SPECIFIED;True;False;True
+761;AgPhotoPropertyArrayElement;arrayIndex;NOT SPECIFIED;True;False;False
+762;AgPhotoPropertyArrayElement;dataType;NOT SPECIFIED;False;False;False
+763;AgPhotoPropertyArrayElement;internalValue;NOT SPECIFIED;False;False;False
+764;AgPhotoPropertyArrayElement;photo;INTEGER;True;False;False
+765;AgPhotoPropertyArrayElement;propertySpec;INTEGER;True;False;False
+766;AgPhotoPropertySpec;id_local;INTEGER;False;True;False
+767;AgPhotoPropertySpec;id_global;NOT SPECIFIED;True;False;True
+768;AgPhotoPropertySpec;flattenedAttributes;NOT SPECIFIED;False;False;False
+769;AgPhotoPropertySpec;key;NOT SPECIFIED;True;False;False
+770;AgPhotoPropertySpec;pluginVersion;NOT SPECIFIED;True;False;False
+771;AgPhotoPropertySpec;sourcePlugin;NOT SPECIFIED;True;False;False
+772;AgPhotoPropertySpec;userVisibleName;NOT SPECIFIED;False;False;False
+773;AgPublishListenerWorklist;id_local;INTEGER;False;True;False
+774;AgPublishListenerWorklist;taskID;NOT SPECIFIED;True;False;True
+775;AgPublishListenerWorklist;taskStatus;NOT SPECIFIED;True;False;False
+776;AgPublishListenerWorklist;whenPosted;NOT SPECIFIED;True;False;False
+777;AgRemotePhoto;id_local;INTEGER;False;True;False
+778;AgRemotePhoto;id_global;NOT SPECIFIED;True;False;True
+779;AgRemotePhoto;collection;INTEGER;True;False;False
+780;AgRemotePhoto;commentCount;NOT SPECIFIED;False;False;False
+781;AgRemotePhoto;developSettingsDigest;NOT SPECIFIED;False;False;False
+782;AgRemotePhoto;fileContentsHash;NOT SPECIFIED;False;False;False
+783;AgRemotePhoto;fileModTimestamp;NOT SPECIFIED;False;False;False
+784;AgRemotePhoto;metadataDigest;NOT SPECIFIED;False;False;False
+785;AgRemotePhoto;mostRecentCommentTime;NOT SPECIFIED;False;False;False
+786;AgRemotePhoto;orientation;NOT SPECIFIED;False;False;False
+787;AgRemotePhoto;photo;INTEGER;True;False;False
+788;AgRemotePhoto;photoNeedsUpdating;NOT SPECIFIED;False;False;False
+789;AgRemotePhoto;publishCount;NOT SPECIFIED;False;False;False
+790;AgRemotePhoto;remoteId;NOT SPECIFIED;False;False;False
+791;AgRemotePhoto;serviceAggregateRating;NOT SPECIFIED;False;False;False
+792;AgRemotePhoto;url;NOT SPECIFIED;False;False;False
+793;AgSearchablePhotoProperty;id_local;INTEGER;False;True;False
+794;AgSearchablePhotoProperty;id_global;NOT SPECIFIED;True;False;True
+795;AgSearchablePhotoProperty;dataType;NOT SPECIFIED;False;False;False
+796;AgSearchablePhotoProperty;internalValue;NOT SPECIFIED;False;False;False
+797;AgSearchablePhotoProperty;lc_idx_internalValue;NOT SPECIFIED;False;False;False
+798;AgSearchablePhotoProperty;photo;INTEGER;True;False;False
+799;AgSearchablePhotoProperty;propertySpec;INTEGER;True;False;False
+800;AgSearchablePhotoProperty;id_local;INTEGER;False;True;False
+801;AgSearchablePhotoProperty;id_global;NOT SPECIFIED;True;False;True
+802;AgSearchablePhotoProperty;arrayIndex;NOT SPECIFIED;True;False;False
+803;AgSearchablePhotoProperty;dataType;NOT SPECIFIED;False;False;False
+804;AgSearchablePhotoProperty;internalValue;NOT SPECIFIED;False;False;False
+805;AgSearchablePhotoProperty;lc_idx_internalValue;NOT SPECIFIED;False;False;False
+806;AgSearchablePhotoProperty;photo;INTEGER;True;False;False
+807;AgSearchablePhotoProperty;propertySpec;INTEGER;True;False;False
+808;AgSearchablePhotoPropertyArrayElement;id_local;INTEGER;False;True;False
+809;AgSearchablePhotoPropertyArrayElement;id_global;NOT SPECIFIED;True;False;True
+810;AgSearchablePhotoPropertyArrayElement;arrayIndex;NOT SPECIFIED;True;False;False
+811;AgSearchablePhotoPropertyArrayElement;dataType;NOT SPECIFIED;False;False;False
+812;AgSearchablePhotoPropertyArrayElement;internalValue;NOT SPECIFIED;False;False;False
+813;AgSearchablePhotoPropertyArrayElement;lc_idx_internalValue;NOT SPECIFIED;False;False;False
+814;AgSearchablePhotoPropertyArrayElement;photo;INTEGER;True;False;False
+815;AgSearchablePhotoPropertyArrayElement;propertySpec;INTEGER;True;False;False
+816;AgSourceColorProfileConstants;id_local;INTEGER;False;True;False
+817;AgSourceColorProfileConstants;image;INTEGER;True;False;False
+818;AgSourceColorProfileConstants;profileName;NOT SPECIFIED;True;False;False
+819;AgSpecialSourceContent;id_local;INTEGER;False;True;False
+820;AgSpecialSourceContent;content;NOT SPECIFIED;False;False;False
+821;AgSpecialSourceContent;owningModule;NOT SPECIFIED;False;False;False
+822;AgSpecialSourceContent;source;NOT SPECIFIED;True;False;False
+823;AgTempImages;image;INTEGER;False;True;False
+824;AgUnsupportedOzAssets;id_local;INTEGER;False;True;False
+825;AgUnsupportedOzAssets;ozAssetId;NOT SPECIFIED;True;False;False
+826;AgUnsupportedOzAssets;ozCatalogId;NOT SPECIFIED;True;False;False
+827;AgUnsupportedOzAssets;path;NOT SPECIFIED;True;False;False
+828;AgUnsupportedOzAssets;type;NOT SPECIFIED;True;False;False
+829;AgUnsupportedOzAssets;payload;NOT SPECIFIED;True;False;False
+830;AgVideoInfo;id_local;INTEGER;False;True;False
+831;AgVideoInfo;duration;NOT SPECIFIED;False;False;False
+832;AgVideoInfo;frame_rate;NOT SPECIFIED;False;False;False
+833;AgVideoInfo;has_audio;INTEGER;True;False;False
+834;AgVideoInfo;has_video;INTEGER;True;False;False
+835;AgVideoInfo;image;INTEGER;True;False;False
+836;AgVideoInfo;poster_frame;NOT SPECIFIED;True;False;False
+837;AgVideoInfo;poster_frame_set_by_user;INTEGER;True;False;False
+838;AgVideoInfo;trim_end;NOT SPECIFIED;True;False;False
+839;AgVideoInfo;trim_start;NOT SPECIFIED;True;False;False
+840;LrMobileSyncChangeCounter;id;NOT SPECIFIED;False;True;False
+841;LrMobileSyncChangeCounter;changeCounter;NOT SPECIFIED;True;False;False
+842;MigratedCollectionImages;ozAlbumId;NOT SPECIFIED;True;False;False
+843;MigratedCollectionImages;ozAlbumAssetId;NOT SPECIFIED;True;False;False
+844;MigratedCollectionImages;ozCatalogId;NOT SPECIFIED;True;False;False
+845;MigratedCollectionImages;localCollectionId;INTEGER;True;False;False
+846;MigratedCollectionImages;localCollectionImageId;INTEGER;True;False;False
+847;MigratedCollectionImages;UNIQUE;NOT SPECIFIED;False;False;True
+848;MigratedCollections;ozAlbumId;NOT SPECIFIED;True;False;False
+849;MigratedCollections;ozCatalogId;NOT SPECIFIED;True;False;False
+850;MigratedCollections;ozName;NOT SPECIFIED;True;False;False
+851;MigratedCollections;localId;INTEGER;True;False;False
+852;MigratedCollections;UNIQUE;NOT SPECIFIED;False;False;True
+853;MigratedImages;ozAssetId;NOT SPECIFIED;True;False;False
+854;MigratedImages;ozCatalogId;NOT SPECIFIED;True;False;False
+855;MigratedImages;localId;INTEGER;True;False;False
+856;MigratedImages;UNIQUE;NOT SPECIFIED;False;False;True
+857;MigratedInfo;ozCatalogId;TEXT;False;True;False
+858;MigratedInfo;migrationStatus;NOT SPECIFIED;True;False;False
+859;MigratedInfo;timestamp;NOT SPECIFIED;True;False;False
+860;MigrationSchemaVersion;version;TEXT;False;True;False
